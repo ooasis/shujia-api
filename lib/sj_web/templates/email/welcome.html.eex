@@ -1,0 +1,8 @@
+<p>
+    <strong>Welcome</strong> to Smart Check-in!  <%= @user.email %>
+</p>
+
+<p>
+    Please confirm by clicking <a
+        href="<%= @url %>/auth/verify_user?id=<%= @user.id %>&token=<%= @user.verification %>">this link</a>.
+</p>
