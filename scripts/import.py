@@ -95,7 +95,7 @@ def insert_book(
 
 def mysql_conn():
     return mysql.connector.connect(
-        host="us-cdbr-east-03.cleardb.com", user="b9848547a8f4ff", passwd="d611c5f3", database="heroku_0f155309392638e"
+        host="", user="", passwd="", database=""
     )
 
 
